@@ -55,7 +55,25 @@
 
 .weather-box {
     height: 500px;
-    border: 2px solid black;
     margin-top: 24px;
     padding: 24px;
 }
+
+.icon, .temperature, .description, .weather {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.temperature, .description, .weather {
+    height: fit-content;
+    width: fit-content;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+
